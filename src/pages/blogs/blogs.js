@@ -49,7 +49,7 @@ export default initial => ({
                 </span>
               </div>
     
-              <p class="text-gray-200 my-4 h-24 text-base block-with-text">Alright so Im not a crappy person. Sometimes I just think like one. 
+              <p class="text-gray-200 my-4 h-24 text-base trunc">Alright so Im not a crappy person. Sometimes I just think like one. 
               Like this afternoon when I got a message from someone "looking for help with web design". It was obvious the guy had messaged the wrong person. I'm a web developer (aka software developer/engineer). Not a web designer... 
               </p>
       

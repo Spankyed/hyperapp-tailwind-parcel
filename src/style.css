@@ -26,12 +26,11 @@
 .sm\:w-45 {
     width: 45%;
 }
-/* .truncate {
-
-    white-space: nowrap;
+ .trunc {
+    max-height: 5.8em; 
     overflow: hidden;
     text-overflow: ellipsis;
-  } */
+  } 
   .block-with-text {
     /* hide text if it more than N lines  */
     overflow: hidden;

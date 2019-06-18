@@ -6,8 +6,8 @@ export default (state, actions) => ({match}) => {
   var blog = getBlogById(state,match.params.blog_id)[0]
   return (
     <div class="">
-      <div class="hidden lg:block w-full bg-center bg-no-repeat" style={`background-size: 1400px; height:80vh; background-image:url(${blog.image});`}></div> 
-      <div class="block lg:hidden w-full bg-center bg-no-repeat" style={`background-size: 1050px; height:80vh; background-image:url(${blog.image});`}></div>
+      <div class="hidden lg:block w-full bg-center bg-no-repeat" style={`background-size: 1450px; height:80vh; background-image:url(${blog.image});`}></div> 
+      <div class="block lg:hidden w-full bg-no-repeat" style={`background-size: 850px; background-position: 50% 0%; height:60vh; background-image:url(${blog.image});`}></div>
       
       <div class="container w-full mx-auto md:max-w-3xl">
          

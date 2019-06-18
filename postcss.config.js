@@ -1,4 +1,3 @@
-const tailwindcss = require('tailwindcss')
 const purgecss = require('@fullhuman/postcss-purgecss')
 
 // This will extract variants
@@ -10,7 +9,11 @@ class TailwindExtractor {
 
 module.exports = {
   plugins: [
-    tailwindcss('./tailwind.js'),
+    require('tailwindcss')('./tailwind.config.js')
+  ],
+}
+//purge css fucking shit up
+/*
     ...(false
       ? [
           purgecss({
@@ -24,5 +27,4 @@ module.exports = {
           })
         ]
       : [])
-  ]
-}
+*/      

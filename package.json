@@ -1,5 +1,5 @@
 {
-  "name": "hyperapp-tailwind-parcel",
+  "name": "angels-website",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,10 @@
     "dev": "parcel index.html",
     "build": "parcel build index.html --public-url ./"
   },
-  "author": "Victor Mustar <victor@jubiwee.com> (www.jubiwee.com)",
+  "author": "VAngel",
   "license": "ISC",
   "dependencies": {
+    "@hyperapp/router": "^0.7.2",
     "hyperapp": "^1.2.9",
     "serve": "^10.1.1"
   },
@@ -21,6 +22,6 @@
     "@babel/preset-env": "^7.2.3",
     "@fullhuman/postcss-purgecss": "^1.1.0",
     "parcel": "^1.11.0",
-    "tailwindcss": "^0.7.3"
+    "tailwindcss": "^1.0.4"
   }
 }
